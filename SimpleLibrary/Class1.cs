@@ -15,7 +15,7 @@ namespace SimpleLibrary
             return value1 + value2;
         }
 
-        public static float Plus(float value1, float value2)
+        public static float Plus(float value1, float value2) 
         {
             return value1 + value2;
         }
@@ -37,8 +37,7 @@ namespace SimpleLibrary
 
                 else resultArray[i] = value2[i];
             }
-            return resultArray;
-            
+            return resultArray;           
         }
 
         public static float[] Plus(float[] value1, float[] value2)

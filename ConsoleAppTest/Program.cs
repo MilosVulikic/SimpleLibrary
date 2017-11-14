@@ -60,8 +60,6 @@ namespace ConsoleAppTest
             {
                 Console.Write(val11[i] + " ");
             }
-            Console.WriteLine("\nMedian: ");
-            
 
             Console.ReadKey(true);
 
