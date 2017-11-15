@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using SimpleLibrary;
 
 namespace ConsoleAppTest
 {
-    using SimpleLibrary;
+    
     class Program
     {
         static void Main(string[] args)
@@ -24,6 +25,12 @@ namespace ConsoleAppTest
             float[] val8 = MathOperation.Min(val1, val2);           
             float val10 = MathOperation.Median(val1);
             float[] val11 = MathOperation.Median(val1, val2);
+
+            double val14 = MathOperation.Plus(1.33, 1.22);
+
+            Console.WriteLine("\nPlus:");
+            Console.WriteLine(val14);
+
 
             Console.WriteLine("\nPlus:");
             for (int i = 0; i < val3.Length; i++)

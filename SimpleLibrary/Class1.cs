@@ -56,7 +56,7 @@ namespace SimpleLibrary
         }
 
         public static double[] Plus(double[] value1, double[] value2)
-        {
+        {            
             int length = MathOperation.Max(value1.Length, value2.Length);
             double[] resultArray = new double[length];
             for (int i = 0; i < length; i++)
@@ -403,6 +403,11 @@ namespace SimpleLibrary
             return (value1 + value2) / 2;
         }
 
+        public static double Median(double value1, double value2)
+        {
+            return (value1 + value2) / 2;
+        }
+
         public static int Median(int[] value1)
         {        
             if (value1 == null || value1.Length == 0)
@@ -468,8 +473,8 @@ namespace SimpleLibrary
             int mid1 = size1 / 2;
             int mid2 = size2 / 2;
             float[] median = new float[2];
-            median[0] = (size1 % 2 != 0) ? (int)sortedNumbers1[mid1] : ((int)sortedNumbers1[mid1] + (int)sortedNumbers1[mid1 - 1]) / 2;
-            median[1] = (size2 % 2 != 0) ? (int)sortedNumbers2[mid2] : ((int)sortedNumbers2[mid2] + (int)sortedNumbers2[mid2 - 1]) / 2;
+            median[0] = (size1 % 2 != 0) ? (float)sortedNumbers1[mid1] : ((float)sortedNumbers1[mid1] + (float)sortedNumbers1[mid1 - 1]) / 2;
+            median[1] = (size2 % 2 != 0) ? (float)sortedNumbers2[mid2] : ((float)sortedNumbers2[mid2] + (float)sortedNumbers2[mid2 - 1]) / 2;
             return median;
         }
 
@@ -484,8 +489,8 @@ namespace SimpleLibrary
             int mid1 = size1 / 2;
             int mid2 = size2 / 2;
             double[] median = new double[2];
-            median[0] = (size1 % 2 != 0) ? (int)sortedNumbers1[mid1] : ((int)sortedNumbers1[mid1] + (int)sortedNumbers1[mid1 - 1]) / 2;
-            median[1] = (size2 % 2 != 0) ? (int)sortedNumbers2[mid2] : ((int)sortedNumbers2[mid2] + (int)sortedNumbers2[mid2 - 1]) / 2;
+            median[0] = (size1 % 2 != 0) ? (double)sortedNumbers1[mid1] : ((double)sortedNumbers1[mid1] + (double)sortedNumbers1[mid1 - 1]) / 2;
+            median[1] = (size2 % 2 != 0) ? (double)sortedNumbers2[mid2] : ((double)sortedNumbers2[mid2] + (double)sortedNumbers2[mid2 - 1]) / 2;
             return median;
         }
 
