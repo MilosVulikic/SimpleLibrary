@@ -15,6 +15,8 @@ namespace ConsoleAppTest
             Console.WriteLine(MathOperation.Plus(5,6));
             Console.WriteLine(MathOperation.Plus(5.999999F, 5.999999F));
 
+            float valFloat1 = 1.01;
+            float valFloat2 = 2.02;
             float[] val1 = {1.2F,2.5F,3.3F,4,5,6,2,3,4};
             float[] val2 = {5,6,7,8.1F,9.0F,5,0,7,8,1,2,3,4,5,1,2,-3};
             float[] val3 = MathOperation.Plus(val1,val2);
@@ -28,20 +30,13 @@ namespace ConsoleAppTest
 
             double val14 = MathOperation.Plus(1.33, 1.22);
 
-            Console.WriteLine("\nPlus:");
-            Console.WriteLine(val14);
+            Console.WriteLine("\nPlus:"); Console.WriteLine(val14);
 
 
-            Console.WriteLine("\nPlus:");
-            for (int i = 0; i < val3.Length; i++)
-            {
-                Console.Write(val3[i] + " ");
-            }
-            Console.WriteLine("\nMinus:");
-            for (int i = 0; i < val3.Length; i++)
-            {
-                Console.Write(val4[i] + " ");
-            }
+            Console.WriteLine("\nPlus:"); for (int i = 0; i < val3.Length; i++) Console.Write(val3[i] + " ");
+
+            Console.WriteLine("\nMinus:"); for (int i = 0; i < val3.Length; i++) Console.Write(val4[i] + " ");
+
             Console.WriteLine("\nDivide:");
             for (int i = 0; i < val3.Length; i++)
             {
