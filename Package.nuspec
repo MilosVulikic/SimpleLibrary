@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>SimpleMathLibrary</id>
+    <version>1.0.0</version>
+    <authors>Milos Vulikic</authors>
+    <owners>Milos Vulikic</owners>
+    <licenseUrl>https://github.com/MilosVulikic/SimpleLibrary</licenseUrl>
+    <projectUrl>https://github.com/MilosVulikic/SimpleLibrary</projectUrl>
+    <iconUrl>https://github.com/MilosVulikic/SimpleLibrary/logos/SimpleLibraryPackageLogo.jpg</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package contains very simple math library which can be usefull in doing simple operations on arrays.</description>
+    <releaseNotes>This is a first version of the package. It includes basic math operations accompanied with finding minimum, maximum and median values of arrays. Beside arrays,  simple datatype method overload is included.</releaseNotes>
+    <copyright>MV Copyright 2017</copyright>
+    <tags>VeryBasic mathPackage mathLibrary SimpleMathLibrary</tags>
+    <dependencies>      
+      
+    </dependencies>       
+  </metadata>
+
+  <files>
+    <file src="SimpleLibrary\bin\Release\SimpleMathLibrary.dll" target="lib\MathLibraries\SimpleMathLibrary.dll" />
+    <!-- <file src="SimpleLibrary\bin\Debug\*.pdb" target="lib" />-->
+    
+  </files>
+
+</package>

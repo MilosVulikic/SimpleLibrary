@@ -55,9 +55,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SimpleLibrary\SimpleLibrary.csproj">
+    <ProjectReference Include="..\SimpleLibrary\SimpleMathLibrary.csproj">
       <Project>{a2e07bfc-fd25-4fc0-a7b5-c35d9105a951}</Project>
-      <Name>SimpleLibrary</Name>
+      <Name>SimpleMathLibrary</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

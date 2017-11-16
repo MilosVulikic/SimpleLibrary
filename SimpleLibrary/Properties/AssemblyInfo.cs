@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("LibSimpleLibrary")]
+[assembly: AssemblyTitle("SimpleMathLibrary")]
 [assembly: AssemblyDescription("A library for tutorial purpose")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Milos Vulikic")]
-[assembly: AssemblyProduct("SimpleLibrary")]
+[assembly: AssemblyProduct("SimpleMathLibrary")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
