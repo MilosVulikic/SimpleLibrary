@@ -68,7 +68,7 @@ int, float and double
 <p>float[] median(float[] , float[] ) - Returns two-memeber array of median value of first and second array</p>
 <p>double[] median(double[] , double[] ) - Returns two-memeber array of median value of first and second array</p>
 
-
+# Nuget Package SimpleMathLibrary
 <p>Nuget package added: SimpleMathLibrary</p>
 
 # SimpleLibraryUnitTest
