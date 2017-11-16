@@ -86,12 +86,12 @@ namespace ConsoleAppTest
             Console.Write("\nArray of Min:"); for (int i = 0; i < valueArrayInt1.Length; i++) Console.Write(MathOperation.Min(valueArrayFloat1[i], valueArrayFloat2[i]) + " ");
             Console.Write("\nArray of Min:"); for (int i = 0; i < valueArrayInt1.Length; i++) Console.Write(MathOperation.Min(valueArrayDouble1[i], valueArrayDouble2[i]) + " ");
 
-            Console.Write("\nMedian:"); Console.Write(MathOperation.Median(valueInt1, valueInt2));
-            Console.Write("\nMedian:"); Console.Write(MathOperation.Median(valueFloat1, valueFloat2));
-            Console.Write("\nMedian:"); Console.Write(MathOperation.Median(valueDouble1, valueDouble2));
-            Console.Write("\nMedian Array:"); Console.Write(MathOperation.Median(valueArrayInt1));
-            Console.Write("\nMedian Array:"); Console.Write(MathOperation.Median(valueArrayFloat1));
-            Console.Write("\nMedian Array:"); Console.Write(MathOperation.Median(valueArrayDouble1));
+            Console.Write("\nMedian of two numbers:"); Console.Write(MathOperation.Median(valueInt1, valueInt2));
+            Console.Write("\nMedian of two numbers:"); Console.Write(MathOperation.Median(valueFloat1, valueFloat2));
+            Console.Write("\nMedian of two numbers:"); Console.Write(MathOperation.Median(valueDouble1, valueDouble2));
+            Console.Write("\nMedian of an Array:"); Console.Write(MathOperation.Median(valueArrayInt1));
+            Console.Write("\nMedian of an Array:"); Console.Write(MathOperation.Median(valueArrayFloat1));
+            Console.Write("\nMedian of an Array:"); Console.Write(MathOperation.Median(valueArrayDouble1));
             Console.Write("\nMedian of two Arrays:"); Console.Write(resultArrayIntMedian[0] + " " + resultArrayIntMedian[1]);
             Console.Write("\nMedian of two Arrays:"); Console.Write(resultArrayFloatMedian[0] + " " + resultArrayFloatMedian[1]);
             Console.Write("\nMedian of two Arrays:"); Console.Write(resultArrayDoubleMedian[0] + " " + resultArrayDoubleMedian[1]);
