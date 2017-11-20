@@ -1,5 +1,8 @@
 # SimpleLibrary project
-<p>Contains three subprojects:</p>
+<p>Contains three subprojects which will be described in the following lines.</p>
+
+# Nuget Package SimpleMathLibrary
+<p>You can find this test library among Nuget packages. Name to look for: <b>SimpleMathLibrary.</b></p>
 
 # SimpleMathLibrary
 <br>
@@ -70,12 +73,9 @@
 <p>float[] median(float[] , float[] ) - Returns two-memeber array of median value of first and second array</p>
 <p>double[] median(double[] , double[] ) - Returns two-memeber array of median value of first and second array</p>
 
-# Nuget Package SimpleMathLibrary
-<p>Nuget package added: SimpleMathLibrary</p>
-
 # SimpleLibraryUnitTest
-Test for all the funcitons in the library
+<p>Test for all the funcitons in the library. Currently there is 81 test inculded.</p>
 
 # ConsoleAppTest
-ConsoleAppTest is made to show results of the library functions. 
-Note: This program shows results in console for each data type
+<p>ConsoleAppTest is made to show results of the library functions.</p>
+<p>Note: This program shows results in console for each data type.</p>
